@@ -66,7 +66,7 @@ def handle_summary():
 def handle_filter(tag):
     logs_path = "data/logs.json"
     if not os.path.exists(logs_path):
-        print()"No logs found."
+        print("No logs found.")
         return
     
     with open(logs_path, "r") as f:
